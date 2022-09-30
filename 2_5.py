@@ -16,7 +16,7 @@ def chisla(n):
     if n > 99:
         return 'много'
     if n < 1:
-        return 'ALARM OSHIBKA'
+        return None
 def verblydu(n):
     ch = chisla(n)
     v1 ='Верблюд'
@@ -34,4 +34,4 @@ def verblydu(n):
         return (i2)
     else:
         i3 = 'в караване было' + ' ' + str(ch) + ' ' + v3
-        return (i3)
+        return (i3
